@@ -5,7 +5,7 @@ const page = () => {
     <div>
       
     <div className='bg-black text-white text-2xl text-center'>HOME PAGE</div>
-    <Link href={"/api"}> Post </Link>
+    <Link href={"./about"}> Post </Link>
     </div>
   )
 }

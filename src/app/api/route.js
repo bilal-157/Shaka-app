@@ -8,7 +8,7 @@ export async function GET(req) {
         await mongoose.connect(ConnectionString)
         const data = await PostModel.find()
         console.log(data)
-        return NextResponse.json({"messga":data},{status:200})
+        return NextResponse.json({"message":data},{status:200})
 
     } catch (error) {
         return NextResponse.json({"messga":"false"},{status:400})
